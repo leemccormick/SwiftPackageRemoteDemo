@@ -79,6 +79,17 @@ The Swift Package Manager (SPM) is a built-in tool for managing the distribution
         ]
     )
 ```
+ ##### How to add example app inside package
+- 1. Add Project Name "Example" to SwiftPackageRemoteDemo folder
+- 2. Open the Example project and add SwiftPackageRemoteDemo package to the project.
+     
+<img width="800" height="450" src="https://github.com/leemccormick/SwiftPackageRemoteDemo/assets/57606580/2ae0d1aa-a0c3-4373-afd9-f006c48d5e28">
+ 
+- 3. Import SwiftPackageRemoteDemo in Project and call it in in the new project App window
+- 4. Clean up, delete test and unnessary files.
+- 5. Test and run the Example project
+     
+<img width="800" height="450" src="https://github.com/leemccormick/SwiftPackageRemoteDemo/assets/57606580/cc3670ed-c0fe-494a-a23a-58be705e6cf4">
 
 ## Sources
 - https://github.com/leemccormick/SwiftUI_Micro_Nav_Demo
