@@ -2,7 +2,7 @@
 
 The Swift Package Manager (SPM) is a built-in tool for managing the distribution of source code in the Swift programming language. It simplifies the process of sharing reusable code components and integrating dependencies into your Swift projects.
 
-##### How to create and publish Swift Package
+### How to create and publish Swift Package
 - 1. Create SwiftPackageRemoteDemo on Local
 - 2. Commit and Push the package to github
 - 3. On Local Terminal, create tag for the repo, then push tag to origin
@@ -15,7 +15,7 @@ The Swift Package Manager (SPM) is a built-in tool for managing the distribution
 
 - 4. Now on the remote repo, should have the tag of first version of Swift Package
  
- ##### How to update and publish new version on Swift Package
+ ### How to update and publish new version on Swift Package
 - 1. Update code inside SwiftPackageRemoteDemo on Local
 - 2. Commit and Push the package to github
 - 3. On Local Terminal, create tag for the repo, then push tag to origin
@@ -28,17 +28,17 @@ The Swift Package Manager (SPM) is a built-in tool for managing the distribution
 
 - 4. Now on the remote repo, should have the tag of 0.0.2 version of Swift Package
 
- ##### How to add remote package to the project
+ ### How to add remote package to the project
  - 1. On the project, go to file and add package using the git hub url.
 <img width="800" height="450" src="https://github.com/leemccormick/SwiftPackageRemoteDemo/assets/57606580/72fa6c48-dbf3-4b97-8025-804e40fa0db1">
  
  - 2. Import the package to use it in the project.
 
- ##### How to update remote package in the project
+ ### How to update remote package in the project
  - 1. To update package code, go to remote repo on local and update code, push updated code to origin, On local terminal, create new git tag and push it to origin
  - 2. Then update package in this project, clean derived data, go to file, update package, reset package cahced, build and clean.
 
- ##### How to inject remote dependency in local package
+ ### How to inject remote dependency in local package
  - 1. Inside Local Package manifest file. Add Dependecy on after library and inside the target.
  - 2. In terminal, cd to the package directory and run this command 'swift package resolve' --> This will fetch the remote dependency into local package.
 
