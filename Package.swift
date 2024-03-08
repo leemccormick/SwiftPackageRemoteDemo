@@ -17,7 +17,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "SwiftPackageRemoteDemo",
-            exclude: ["../Example"]),
+            exclude: ["../../Example"]),
         .testTarget(
             name: "SwiftPackageRemoteDemoTests",
             dependencies: ["SwiftPackageRemoteDemo"],
