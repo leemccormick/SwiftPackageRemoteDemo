@@ -12,7 +12,7 @@ public struct GreetingOnSwiftPackageRemoteView: View {
 
     public var body: some View {
         ZStack {
-            Color.purple.opacity(0.2)
+            Color.pink.opacity(0.2)
             VStack {
                 Text("Hello, World!")
                     .font(.largeTitle)
@@ -37,7 +37,7 @@ public struct GreetingOnSwiftPackageRemoteView: View {
                 .padding()
             }
         }
-        .border(.orange, width: 3)
+        .border(.blue, width: 3)
         .cornerRadius(10)
     }
 }

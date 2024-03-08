@@ -8,6 +8,8 @@
 import Foundation
 
 public class Validation {
+    public static let shared: Validation = .init()
+    
     public init() { }
     
     public let validationGreeting  = "Hello, I am a validation demo."

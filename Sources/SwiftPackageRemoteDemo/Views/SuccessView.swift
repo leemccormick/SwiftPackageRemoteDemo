@@ -36,8 +36,8 @@ public struct SuccessView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
         }
         .padding()
-        .background(Color.red.opacity(0.1))
-        .border(.red, width: 3)
+        .background(Color.green.opacity(0.1))
+        .border(.green, width: 3)
         .cornerRadius(10)
     }
 }
