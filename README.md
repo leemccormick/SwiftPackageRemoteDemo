@@ -1,7 +1,7 @@
 # Swift Package Remote Demo
 
 The Swift Package Manager (SPM) is a built-in tool for managing the distribution of source code in the Swift programming language. It simplifies the process of sharing reusable code components and integrating dependencies into your Swift projects.
-
+<hr>
 ### How to create and publish Swift Package
 - 1. Create SwiftPackageRemoteDemo on Local
 - 2. Commit and Push the package to github
